@@ -21,7 +21,6 @@ app.get('/requestIP', (req, res) => {
 });
 // 純 EXPRESS 框架版
 app.get('/expressIP', (req, res) => {
-  s;
   const ip = req.ip;
   res.send(`你的 IP 是：${ip}`);
 });
